@@ -120,12 +120,12 @@ nav ul li {
 .bio {  /* adjusts the bio text style */
   width: 25rem;
   padding: 0.625rem;
-  border-radius: 34px;
-  background: linear-gradient(145deg, #73b4e6, #89d6ff);
-  box-shadow:  25px 25px 51px #5f94bd,
-             -25px -25px 51px #a1fcff var (--primary-shadow);
-  /*border-radius: 6px;*/
-  /* box-shadow: 0px 2px 15px 2px var(--primary-shadow); */
+  /* border-radius: 34px;*/
+  /* background: linear-gradient(145deg, #73b4e6, #89d6ff); */
+  /* box-shadow:  25px 25px 51px #5f94bd,
+             -25px -25px 51px #a1fcff var (--primary-shadow); */
+  border-radius: 6px;
+  box-shadow: 20px 20px 15px 2px var(--primary-shadow);
 }
 
 .bio h1 {
