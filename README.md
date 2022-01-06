@@ -2,6 +2,8 @@
 
 A portfolio website template for campers
 
+https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/
+
 ![jane-doe](jane-shot.png)
 
 ## Author

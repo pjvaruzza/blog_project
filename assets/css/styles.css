@@ -6,12 +6,15 @@
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-color: linear-gradient(145deg, #65aee6, #78cfff);
-  /*--bg-color: #fcfcfc;*/
+  /*--bg-color: linear-gradient(145deg, #65aee6, #78cfff);*/
+  --bg-color: #fcfcfc;
   --primary-color: #4756df;
   --secondary-color: #ff7235;
+  --tert-color: #fcfcfc;
   --primary-shadow: #8b8eaf;
+  --primary-shadow: #78cfff;
   --secondary-shadow: #a17a69;
+  --tert-shadow: #182027;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
@@ -30,6 +33,7 @@ html {
   /* border: 2px solid red; */
 }
 
+
 ul {
   list-style-type: none;
 }
@@ -46,6 +50,7 @@ a:hover {
 
 body {
   font-family: var(--font-family);
+  background-color: var(--bg-color);
 }
 
 
@@ -60,17 +65,15 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 3.5rem;
-  border-radius: 34px;
   background: linear-gradient(145deg, #65aee6, #78cfff);
-  box-shadow:  26px 26px 49px #375f7d,
-             -26px -26px 49px #a9ffff var (--primary-shadow);
+  box-shadow:  1px 1px 5px #375f7d;
   /*background-color: var(--bg-color);
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1); /* applied a shadow to the bottom of the navbar */
 }
 
 
 nav h1 {
-  color: var(--primary-color);
+  color: var(--tert-color);
 }
 
 /* 'a' is referring to the nav bar options */
@@ -125,10 +128,11 @@ nav ul li {
 .bio {  /* adjusts the bio text style */
   width: 25rem;
   padding: 0.625rem;
-  border-radius: 34px;
-  background: linear-gradient(145deg, #65aee6, #78cfff);
-  box-shadow:  26px 26px 49px #375f7d,
-             -26px -26px 49px #a9ffff var (--primary-shadow);
+  border-radius: 25px;
+  background: linear-gradient(145deg, #81b9e6, #99dbff);
+  box-shadow:  26px 26px 41px #62829e,
+             -16px -16px 30px #daffff;
+
   /* border-radius: 6px; */
   /* box-shadow: 20px 20px 15px 2px var(--primary-shadow); */
 }
