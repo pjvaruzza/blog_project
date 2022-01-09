@@ -2,7 +2,8 @@
 
 /* Variables */
 :root {
-  --font-family: "Roboto", sans-serf;
+  /*--font-family: "Roboto", sans-serf;*/
+  --font-family: monospace;
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
@@ -274,6 +275,7 @@ nav ul li {
 }
 
 .input-field::placeholder {
+  font-family: monospace;
   padding: 0.5rem;
   color: var(--primary-color);
 }
