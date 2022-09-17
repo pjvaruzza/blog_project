@@ -8,7 +8,7 @@
    --normal-font: 400;
    --bold-font: 700;
    --bolder-font: 900;
-   --bg-color: linear-gradient(145deg, #65aee6, #78cfff);
+   /*--bg-color: linear-gradient(145deg, #65aee6, #78cfff);*/
    --bg-color: #d9d9d9;
    --primary-color: #ff7c1d;
    --text-color: #6be9fa;
@@ -126,8 +126,8 @@ nav ul li {
 
 .hero img {
    /* limits the size of hero image"*/
-   height: 10rem;
-   width: 15rem;
+   height: 13rem;
+   width: 20rem;
 }
 
 .bio {
