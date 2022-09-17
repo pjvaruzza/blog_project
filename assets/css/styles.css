@@ -9,7 +9,7 @@
    --bold-font: 700;
    --bolder-font: 900;
    /*--bg-color: linear-gradient(145deg, #65aee6, #78cfff);*/
-   --bg-color: #1f2329;
+   --bg-color: #d9d9d9;
    --primary-color: #4756df;
    --text-color: #6be9fa;
    --secondary-color: #ff7235;
@@ -26,7 +26,7 @@
 
 html {
    scroll-behavior: smooth;
-   background-color: #212121;
+   background-color: #ffffff;
 }
 
 /* CSS Resets (removes some defualt features such as amargin and padding for elements)*/
@@ -126,8 +126,8 @@ nav ul li {
 
 .hero img {
    /* limits the size of hero image"*/
-   height: 37.5rem;
-   width: 37.5rem;
+   height: 15rem;
+   width: 15rem;
 }
 
 .bio {
@@ -174,9 +174,10 @@ nav ul li {
 }
 
 /* More about ends */
-/* Skills Section style - i think this is also flexbot */
+/* Skills Section style - not flexbot */
 .skills {
    max-width: 68.75rem;
+   /*pushes things to the center */
    margin: auto;
    text-align: center;
    /* pushes things to the center */
@@ -295,6 +296,7 @@ nav ul li {
    margin: 10px 0;
    background-color: #fff;
    border: 2px solid var(--primary-color);
+   box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.8), 5px 5px 10px rgba(0, 0, 0, .25);
    border-radius: 5px;
    font-size: 1rem;
    font-weight: var(--bold-font);
@@ -304,6 +306,7 @@ nav ul li {
 .submit-btn:hover {
    /* Slows things down when the button is in the hover state */
    background-color: var(--primary-color);
+   box-shadow: -1px -1px 5px rgba(255, 255, 255), 5px 5px 10px rgba(0, 0, 0, .25), inset -2px -2px 5px rgba(255, 255, 255, 0.5), inset 2px 2px 4px rgba(0, 0, 0, 0.4);
    border: 2px solid var(--primary-color);
    cursor: pointer;
 }
