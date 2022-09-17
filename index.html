@@ -1,334 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--CSS Styles -->
-    <link rel="stylesheet" href="assets/css/styles.css" />
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Favicons -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="assets/icons/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/icons/favicon-32x32.png"
-    />
+   <!--CSS Styles -->
+   <link rel="stylesheet" href="assets/css/styles.css" />
 
-    <!-- Animate CSS CDN -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <title> Patrick Varuzza Web Developer</title>
-  </head>
+   <!-- Favicons -->
+   <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
+   <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png" />
 
-  <body>
+   <!-- Animate CSS CDN -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+   <title> Patrick Varuzza Web Developer</title>
+</head>
+
+<body>
 
 
-    <!-- Navbar -->
-    <nav>
-         <h1>Patrick Varuzza</h1>
-         <ul class="navigation">
-           <li><a href="#about" class="nav-link">About</a></li>
-           <li><a href="#skills" class="nav-link">Skills</a></li>
-           <li><a href="#projects" class="nav-link">Projects</a></li>
-           <li><a href="#contact" class="nav-link">Contact</a></li>
-         </ul>
-         <button class="burger-menu" id="burger-menu">
-           <ion-icon class="bars" name="menu-outline"></ion-icon>
-         </button>
+   <!-- Navbar -->
+   <nav>
+      <h1>Patrick Varuzza</h1>
+      <ul class="navigation">
+         <li><a href="#about" class="nav-link">About</a></li>
+         <li><a href="#skills" class="nav-link">Skills</a></li>
+         <li><a href="#projects" class="nav-link">Projects</a></li>
+         <li><a href="#contact" class="nav-link">Contact</a></li>
+         <li><a href="https://www.linkedin.com/in/patrick-varuzza/"></a> <!-- check here -->
+         </li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+         <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
    </nav>
 
 
 
-    <!-- Hero Section -->
-    <section class="hero" id="about">
-          <img
-            src="assets/images/wfh_1.svg"
-            alt="jane-doe"
-            loading="lazy"
-            class="hero-img"
-          />
-          <div class="bio animate__animated animate__shakeX">
-            <h2 class="bio-title">About Me</h2>  <!-- class names are from animate CSS and they serve to animate the About Me text container -->
-            <p class="bio-text">
-              I am pursuing a Masters in Mechanical Engineering at NYU Tandon,
-              specializing in Energy Engineering and Energy Policy.
-              I graduated from Columbia University in May 2020 with my Bachelors in Chemical Engineering.
-              My background in sustainable project management and renewable energy generation and
-              storage technology shapes my relentless determination to devote my career to stopping climate change.
-            </p>
-          </div>
-    </section>
-
-
-
-    <!-- More about -->
-    <section class="more-about">
-     <h2>More About Me</h2>
-     <p>
-       This basic web page marks the beginning of my journey learning web development.
-     </p>
-     <br>
-     <p>
-       Follow for more:)
-     </p>
-     <br>
-     <p>
-       Lets see how this goes woot!
-     </p>
-   </section>
-
-
-    <!-- Skills section -->
-
-    <section class="skills" id="skills">
-     <h2 class="skill-header">My Top Skills</h2>
-
-     <div class="skills-wrapper">
-       <div class="first-set animate__animated animate__pulse">     <!-- first set class groups icons on top of eachother -->
-         <!-- the loading attribute means that the icons wont load until the user scrolls to the section contianing them-->
-         <img
-           src="assets/icons/icons8-news.svg"
-           alt=""
-           loading="lazy"
-           class="icon icon-card"
-         />
-         <img
-           src="assets/icons/icons8-css3.svg"
-           alt=""
-           loading="lazy"
-           class="icon icon-card"
-         />
-         <img
-           src="assets/icons/icons8-javascript.svg"
-           alt=""
-           loading="lazy"
-           class="icon icon-card"
-         />
-       </div>
-
-       <div class="second-set animate__animated animate__pulse">
-         <img
-           src="assets/icons/icons8-bootstrap.svg"
-           alt=""
-           loading="lazy"
-           class="icon icon-card"
-         />
-         <img
-           src="assets/icons/icons8-react-native.svg"
-           alt=""
-           loading="lazy"
-           class="icon icon-card"
-         />
-         <img
-           src="assets/icons/icons8-git.svg"
-           alt=""
-           loading="lazy"
-           class="icon icon-card"
-         />
-       </div>
-     </div>
+   <!-- Hero Section -->
+   <section class="hero" id="about">
+      <img src="assets/images/wfh_1.svg" alt="jane-doe" loading="lazy" class="hero-img" />
+      <div class="bio animate__animated animate__shakeX">
+         <h2 class="bio-title">About Me</h2> <!-- class names are from animate CSS and they serve to animate the About Me text container -->
+         <p class="bio-text">
+            I am pursuing a Masters in Mechanical Engineering at NYU Tandon,
+            specializing in Energy Engineering and Energy Policy.
+            I graduated from Columbia University in May 2020 with my Bachelors in Chemical Engineering.
+            My background in sustainable project management and renewable energy generation and
+            storage technology shapes my relentless determination to devote my career to stopping climate change.
+         </p>
+      </div>
    </section>
 
 
 
-    <!-- Projects section -->
-    <section class="projects" id="projects">
-      <h2 class="projects-title">Some of my Recent Projects</h2>    <!-- Section title -->
+   <!-- More about -->
+   <section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+         This basic web page marks the beginning of my journey learning web development.
+      </p>
+      <br>
+      <p>
+         Follow for more:)
+      </p>
+      <br>
+      <p>
+         Lets see how this goes woot!
+      </p>
+   </section>
+
+
+   <!-- Skills section -->
+
+   <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+         <div class="first-set animate__animated animate__pulse">
+            <!-- first set class groups icons on top of eachother -->
+            <!-- the loading attribute means that the icons wont load until the user scrolls to the section contianing them-->
+            <img src="assets/icons/icons8-news.svg" alt="" loading="lazy" class="icon icon-card" />
+            <img src="assets/icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card" />
+            <img src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card" />
+         </div>
+
+         <div class="second-set animate__animated animate__pulse">
+            <img src="assets/icons/icons8-bootstrap.svg" alt="" loading="lazy" class="icon icon-card" />
+            <img src="assets/icons/icons8-react-native.svg" alt="" loading="lazy" class="icon icon-card" />
+            <img src="assets/icons/icons8-git.svg" alt="" loading="lazy" class="icon icon-card" />
+         </div>
+      </div>
+   </section>
+
+
+
+   <!-- Projects section -->
+   <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2> <!-- Section title -->
       <div class="projects-container">
 
-        <div class="project-container project-card"> <!-- First project card -->
-          <img
-            src="assets/images/expenseTracker.png"
-            alt="expense-tracker"
-            loading="lazy"
-            class="project-pic"
-          />
-          <h3 class="project-title">Expense Tracker</h3>  <!-- Giving each project a unique class name lets us style it -->
-          <p class="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
-          </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
-        </div>
+         <div class="project-container project-card">
+            <!-- First project card -->
+            <img src="assets/images/expenseTracker.png" alt="expense-tracker" loading="lazy" class="project-pic" />
+            <h3 class="project-title">Expense Tracker</h3> <!-- Giving each project a unique class name lets us style it -->
+            <p class="project-details">
+               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+               ratione vel inventore labore commodi modi quos culpa aut saepe!
+               Alias!
+            </p>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
+         </div>
 
-        <div class="project-container project-card"> <!-- Second project card -->
-          <img
-            src="assets/images/netflixClone.png"
-            alt="netflic-clone"
-            loading="lazy"
-            class="project-pic"
-          />
-          <h3 class="project-title">Netflix Clone</h3>
-          <p class="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
-          </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
-        </div>
+         <div class="project-container project-card">
+            <!-- Second project card -->
+            <img src="assets/images/netflixClone.png" alt="netflic-clone" loading="lazy" class="project-pic" />
+            <h3 class="project-title">Netflix Clone</h3>
+            <p class="project-details">
+               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+               ratione vel inventore labore commodi modi quos culpa aut saepe!
+               Alias!
+            </p>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
+         </div>
 
-        <div class="project-container project-card"> <!-- Third project card -->
-          <img
-            src="assets/images/greenyEarth.png"
-            alt="greeny-earth"
-            loading="lazy"
-            class="project-pic"
-          />
-          <h3 class="project-title">Greeny Earth</h3>
-          <p class="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
-          </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
-        </div>
+         <div class="project-container project-card">
+            <!-- Third project card -->
+            <img src="assets/images/greenyEarth.png" alt="greeny-earth" loading="lazy" class="project-pic" />
+            <h3 class="project-title">Greeny Earth</h3>
+            <p class="project-details">
+               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+               ratione vel inventore labore commodi modi quos culpa aut saepe!
+               Alias!
+            </p>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
+         </div>
 
-        <!-- iframe test --> 
-        <div class="project-container project-card"
-          <iframe
-           src ="https://www.hubbub.shop"
-           width ='100%'
-           height= '300'
-           ></iframe> <!-- shows webpages inside other webpages -->
-        </div>
+         <!-- iframe test -->
+         <div class="project-container project-card">
+
+
+            <iframe src="https://www.hubbub.shop" width='100%' height='100%'></iframe> <!-- shows webpages inside other webpages -->
+         </div>
       </div>
-    </section>
+   </section>
 
 
 
-    <!-- Contact section -->
-    <section class="contact" id="contact">
-          <h2>Get In Touch With Me</h2>
-          <div class="contact-form-container">
-            <div class="contact-form">
-              <form action="https://formspree.io/f/xayvnqpq" method="POST">   <!-- Action attribute set to a Formspree url that sends an email without having to setup a PHP or js sever -->
-                <div class="form-control">
+   <!-- Contact section -->
+   <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+         <div class="contact-form">
+            <form action="https://formspree.io/f/xayvnqpq" method="POST">
+               <!-- Action attribute set to a Formspree url that sends an email without having to setup a PHP or js sever -->
+               <div class="form-control">
                   <label for="name">Name</label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="sender-name"
-                    placeholder="Enter Your Name"
-                    class="input-field"
-                    required
-                  />
-                </div>
-                <div class="form-control">
+                  <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field" required />
+               </div>
+               <div class="form-control">
                   <label for="email">Email</label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="sender-email"
-                    placeholder="Enter Your Email"
-                    class="input-field"
-                    required
-                  />
-                </div>
-                <div class="form-control">
+                  <input type="email" id="email" name="sender-email" placeholder="Enter Your Email" class="input-field" required />
+               </div>
+               <div class="form-control">
                   <label for="message">Message</label>
-                  <textarea
-                    id="message"
-                    cols="60"
-                    rows="10"
-                    placeholder="Enter Your Message"
-                    name="message"
-                    class="input-field"
-                    required
-                  ></textarea>
-                </div>
-                <input
-                  type="submit"
-                  value="Submit"
-                  id="submit-btn"
-                  class="submit-btn"
-                />
-              </form>
-            </div>
-          </div>
-        </section>
+                  <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message" class="input-field" required></textarea>
+               </div>
+               <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
+            </form>
+         </div>
+      </div>
+   </section>
 
 
-    <!-- Social accounts - Fixed to the right -->
-    <div class="socials">       <!-- first icon -->
-      <a href="https://twitter.com/PatrickV_NYC" target="_blank"
-        ><img
-          src="assets/icons/icons8-twitter-circled.gif"
-          alt="Twitter"
-          loading="lazy"
-          class="socicon"
-      /></a>
+   <!-- Social accounts - Fixed to the right -->
+   <div class="socials">
+      <!-- first icon -->
+      <a href="https://twitter.com/PatrickV_NYC" target="_blank"><img src="assets/icons/icons8-twitter-circled.gif" alt="Twitter" loading="lazy" class="socicon" /></a>
 
       <!-- second icon -->
-      <a href="#" target="_blank"
-          ><img
-            src="assets/icons/icons8-instagram.gif"
-            alt="Instagram"
-            loading="lazy"
-            class="socicon"
-        /></a>
+      <a href="#" target="_blank"><img src="assets/icons/icons8-instagram.gif" alt="Instagram" loading="lazy" class="socicon" /></a>
 
-          <!-- third icon -->
-        <a href="https://www.linkedin.com/in/patrick-varuzza/" target="_blank"
-          ><img
-            src="assets/icons/icons8-linkedin-circled.gif"
-            alt="Linkedin"
-            loading="lazy"
-            class="socicon"
-        /></a>
+      <!-- third icon -->
+      <a href="https://www.linkedin.com/in/patrick-varuzza/" target="_blank"><img src="assets/icons/icons8-linkedin-circled.gif" alt="Linkedin" loading="lazy" class="socicon" /></a>
 
-          <!-- fourth icon -->
-        <a href="https://github.com/pjvaruzza" target="_blank"
-          ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
-        /></a>
-      </div>
+      <!-- fourth icon -->
+      <a href="https://github.com/pjvaruzza" target="_blank"><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon" /></a>
+   </div>
 
 
 
-    <!-- Footer section -->
-    <footer>
+   <!-- Footer section -->
+   <footer>
       <p class="copy">&copy; Copyright 2021</p>
       <p class="copy">
-        Built with &#x2661; by
-        <!-- Swap out the link here  -->
-        <a href="https://twitter.com/PatrickV_NYC" target="_blank"
-          >Patrick Varuzza</a>
+         Built with &#x2661; by
+         <!-- Swap out the link here  -->
+         <a href="https://twitter.com/PatrickV_NYC" target="_blank">Patrick Varuzza</a>
       <p class="copy">
-        Adapted from Kolade Chris (Ksound)'s tutorial </p>
+         Adapted from Kolade Chris (Ksound)'s tutorial </p>
 
       </p>
-    </footer>
+   </footer>
 
-    <!-- Scroll to top button -> The i tag has a class of scroll-up for styling and an id of scroll-up for selecting it with JavaScript. -->
-    <i class="scroll-up" id="scroll-up"
-    ><img
-      src="assets/icons/icons8-upward-arrow.gif"
-      class="socicon up-arrow"
-      alt="scroll-up"
-      /></i>
+   <!-- Scroll to top button -> The i tag has a class of scroll-up for styling and an id of scroll-up for selecting it with JavaScript. -->
+   <i class="scroll-up" id="scroll-up"><img src="assets/icons/icons8-upward-arrow.gif" class="socicon up-arrow" alt="scroll-up" /></i>
 
 
 
-    <!-- Website scripts -->
-    <script src="assets/js/app.js"></script>
+   <!-- Website scripts -->
+   <script src="assets/js/app.js"></script>
 
-    <!-- Ion icons scripts -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-  </body>
+   <!-- Ion icons scripts -->
+   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
 </html>
