@@ -126,9 +126,12 @@ nav ul li {
 
 .hero img {
    /* limits the size of hero image"*/
-   height: 13rem;
-   width: 20rem;
-   /* disply: flex;
+   /*height: 13rem;
+   /*width: 20rem;
+   /* disply: flex; */
+   height: auto;
+   width: auto;
+   border-radius: 8px;
 }
 
 .bio {
