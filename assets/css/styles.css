@@ -126,10 +126,8 @@ nav ul li {
 
 .hero img {
    /* limits the size of hero image"*/
-   /*height: 13rem; */
+   height: 13rem;
    width: 50 rem;
-   /* disply: flex; */
-   height: 30;
    border-radius: 8px;
 }
 
