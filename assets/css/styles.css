@@ -5,23 +5,24 @@
 :root {
    /*--font-family: "Roboto", sans-serf;*/
    --font-family: monospace;
+   --font-family: 'Poppins', sans-serif;
    --normal-font: 400;
    --bold-font: 700;
    --bolder-font: 900;
    /*--bg-color: linear-gradient(145deg, #65aee6, #78cfff);*/
    --bg-color: #ffffff;
-   --primary-color: #4a39d2;
+   --primary-color: rgb(84, 75, 211);
    --text-color: #121147;
    --secondary-color: #ff7235;
    --tert-color: #fcfcfc;
    --primary-shadow: #8b8eaf;
-   --primary-shadow: #78cfff;
+   /* --primary-shadow: #78cfff; */
    --secondary-shadow: #a17a69;
    --tert-shadow: #182027;
    --bottom-margin: 0.5rem;
    --bottom-margin-2: 1rem;
    --line-height: 1.7rem;
-   --transition: 0.3s;
+   --transition: 0.5s;
 }
 
 html {
@@ -46,11 +47,15 @@ a {
    color: var(--primary-color);
 }
 
+
 /*hover state makes it so when user hovers over links, it changes to secondary color*/
 a:hover {
    text-decoration: none;
    color: var(--secondary-color);
 }
+
+
+
 
 body {
    font-family: var(--font-family);
@@ -85,10 +90,12 @@ nav a {
    transition: var(--transition);
 }
 
+
 nav a:hover {
    color: var(--secondary-color);
    border-bottom: 2px solid var(--secondary-color);
 }
+
 
 nav ul {
    display: flex;
@@ -98,6 +105,35 @@ nav ul {
 nav ul li {
    font-weight: var(--bold-font);
 }
+
+
+/* nav ul li a{
+   color: #fff;
+   text-decoration: none;
+   font-size: 1rem;
+   position: relative;
+} */
+
+/* underline hover from portfoliov2 
+nav ul li a::after{
+   content: '';
+   width: 0;
+   height: 3px;
+   background: #ff004f;
+   position: absolute;
+   left: 0;
+   bottom: -6px;
+   transition: 0.5s;
+}
+
+nav ul li a:hover::after{
+ width: 100%;
+}
+
+*/ 
+
+
+
 
 /* ***** HAMBURGER  ****** */
 .burger-menu {
@@ -112,13 +148,17 @@ nav ul li {
 }
 
 /* Navbar ends */
+
+
+
 /* **** HERO Section **** */
 .hero {
    /*  i think this is "flexbot"*/
    display: flex;
+   padding: 2.5rem;
    align-items: center;
    justify-content: center;
-   gap: 2.5rem;
+   gap: 3.5rem;
    max-width: 68.75rem;
    margin: auto;
    /* important to keep the margin flexible as screen szie changes*/
@@ -126,18 +166,18 @@ nav ul li {
 
 .hero img {
    /* limits the size of hero image"*/
-   height: 20rem;
-   width: 60 rem;
-   border-radius: 8px;
+   height: 45%;
+   width: 35%;
+   border-radius: 5%;
 }
 
 .bio {
    /* adjusts the bio text style */
-   width: 25rem;
+   width: 45rem;
    padding: 0.625rem;
    border-radius: 25px;
-   background: linear-gradient(145deg, #81b9e6, #99dbff);
-   box-shadow: 16px 16px 21px #62829e, -10px -10px 20px #88caff;
+   background: linear-gradient(145deg, #ffffff, #ffffff);
+   box-shadow: 12px 12px 18px #a2a8ad, -8px -8px 12px #bccddb;
    /* border-radius: 6px; */
    /* box-shadow: 20px 20px 15px 2px var(--primary-shadow); */
 }
@@ -154,11 +194,12 @@ nav ul li {
 /* Hero Section Ends */
 /* MORE ABOUT Section style */
 .more-about {
-   border: 2px solid rgb(0, 183, 55);
+   border: 2px outset var(--primary-color);
    border-radius: 10px;
    margin: 50px;
    color: var(--text-color);
    background-color: var(--bg-color);
+   /* box-shadow: 12px 12px 18px #a2a8ad, -8px -8px 12px #bccddb; */
    /* bg color variable to define background color*/
    padding: 10px;
 }
@@ -263,7 +304,7 @@ nav ul li {
 .contact-form-container label {
    line-height: 2.7em;
    font-weight: var(--bold-font);
-   color: var(--text-color);
+   color: var(--primary-color);
 }
 
 .contact-form-container textarea {
@@ -273,7 +314,7 @@ nav ul li {
 
 .contact-form-container .input-field {
    width: 100%;
-   background-color: var(--bg-color);
+   /* background-color: var(--bg-color); */
    padding-top: 10px;
    padding-bottom: 10px;
    border-radius: 5px;
@@ -295,7 +336,7 @@ nav ul li {
    /* Makes the button go all across the container */
    padding: 10px;
    margin: 10px 0;
-   background-color: #fff;
+   background-color: var(--bg-color);
    border: 2px solid var(--primary-color);
    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.8), 5px 5px 10px rgba(0, 0, 0, .25);
    border-radius: 5px;
@@ -345,8 +386,8 @@ nav ul li {
 /* Styles the footer */
 footer {
    /* i dont think this isnt using flexbot - rather this block applies to the whole section rather than a class type */
-   color: #93ceff;
-   background-color: var(--bg-color);
+   color: #fff;
+   background-color: #316997;
    padding: 1.25rem;
    text-align: center;
    margin: 2rem 0 0;
@@ -361,22 +402,21 @@ footer {
    background-color: #fff;
    /*  #fff is white*/
    border-radius: 11px;
-   box-shadow: 0px 3px 10px var(--secondary-shadow);
+   box-shadow: 0px 3px 10px var(--primary-shadow);
    /*  #first px is RHS, second is bottom, third is all around? */
    padding: 20px;
-   margin: 10px;
+   margin: 40px;
 }
 
 .project-card {
-   color: #2aa8ff;
-   background-color: #b3d3ff;
-   border-radius: 10px;
+   background-color: #fff;
+   border-radius: 11px;
    /* Rounds out the corners of the boxes */
    box-shadow: 0 3px 10px var(--primary-shadow);
-   box-shadow: 0 2px 0 2px #0c0b0b, 0 5px 5px 5px #111314;
+   box-shadow: 0 2px 0 2px var(--primary-shadow), 0 5px 5px 5px #9da1a2;
    /* Adds in a#bed1ff shadow */
-   padding: 20px;
-   margin: 10px;
+   padding: 10px;
+   margin: 20px;
 }
 
 /* Media Queries for Responsive Windows */
@@ -391,7 +431,9 @@ footer {
    nav ul {
       position: fixed;
       /* fixed position to make it float on the screen */
-      background-color: var(--bg-color);
+      background-color: #ffffff;
+      box-shadow: 0 1px 0 1px var(--primary-shadow), 0 2px 2px 2px var(--primary-shadow);
+      border-radius: 10px;
       flex-direction: column;
       top: 86px;
       /* pushed down 86px drom the top and 10% to the left */
@@ -406,7 +448,7 @@ footer {
    }
 
    nav ul li {
-      margin: 8px;
+      margin: 5px;
    }
 
    .burger-menu {
